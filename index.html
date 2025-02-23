@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DnD5 System Gotowania Potraw</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>System Gotowania Potraw w DnD5</h1>
+        <p>Stwórz potrawy, które dadzą bonusy twojej drużynie!</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Wybierz składniki</h2>
+            <select id="ingredientSelect">
+                <option value="1">Mięso dzikiego zwierza</option>
+                <option value="2">Zioła leśne</option>
+                <option value="3">Jagody leśne</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Wynik gotowania</h2>
+            <button onclick="cook()">Ugotuj!</button>
+            <p id="result">Brak wyniku.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DnD5 Cooking System</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
